@@ -25,6 +25,7 @@ export function handleNewEventCreated(event: NewEventCreated): void {
 
     if (metadata) {
       const value = json.fromBytes(metadata).toObject();
+      console.log(value);
       if (value) {
         const name = value.get("name");
         const description = value.get("description");
