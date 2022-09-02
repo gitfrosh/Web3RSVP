@@ -1,16 +1,16 @@
 specVersion: 0.0.4
-schema:
-  file: ./schema.graphql
 features:
   - ipfsOnEthereumContracts
+schema:
+  file: ./schema.graphql
 dataSources:
   - kind: ethereum
     name: Web3RSVP
     network: mumbai
     source:
-      address: "0x01ce824157c7d707DE4DC23C7b6C995E32CfE77c"
+      address: "0x1ce25B0230331FB8cB9438124343B4392fF55A37"
       abi: Web3RSVP
-      startBlock: 27892269
+      startBlock: 26833573
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6

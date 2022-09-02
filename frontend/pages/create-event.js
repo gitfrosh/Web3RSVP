@@ -22,7 +22,7 @@ export default function CreateEvent() {
   const [refund, setRefund] = useState("");
   const [eventLink, setEventLink] = useState("");
   const [eventDescription, setEventDescription] = useState("");
-
+  console.log(eventName)
   const createEvent = async (cid) => {
     try {
       const rsvpContract = connectContract();
